@@ -53,7 +53,7 @@ function lakukanLooping(arrPegawai) {
 
   for (let key in dataYangAkanDilooping) {
     hasilLooping.push(`${dataYangAkanDilooping[key].namaDepan} ${dataYangAkanDilooping[key].namaBelakang}`)
-    if (dataYangAkanDilooping[key].jeniKelamin == 'M') {
+    if (dataYangAkanDilooping[key].jenisKelamin == 'M') {
       jumlahPria++
     }
     if (dataYangAkanDilooping[key].jenisKelamin == 'F') {
